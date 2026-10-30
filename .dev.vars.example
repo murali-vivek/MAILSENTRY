@@ -1,0 +1,4 @@
+MAILSENTRY_ACCESS_PASSWORD=replace-with-a-long-local-development-password
+MAILSENTRY_SESSION_SECRET=replace-with-at-least-32-random-bytes
+MAILSENTRY_ENABLE_DEMO_RESET=true
+APP_ENV=development

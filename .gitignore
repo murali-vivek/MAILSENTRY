@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.wrangler/
+.dev.vars
+.env
+.env.*
+!.env.example
+!.dev.vars.example
+*.log
+.DS_Store
+coverage/
+.tsbuildinfo
+.dev.vars
+.cursor/
+test-email.eml
+create-vendor.sh

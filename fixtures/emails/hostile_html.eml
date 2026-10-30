@@ -1,0 +1,10 @@
+From: Northwind Supplies <billing@northwind.example>
+To: Accounts Payable <accounts@acme-pay.example>
+Subject: Invoice copy
+Date: Tue, 15 Oct 2024 15:00:00 +0000
+Message-ID: <nw-html@northwind.example>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Authentication-Results: mx.acme-pay.example; spf=pass; dkim=pass; dmarc=pass
+
+<html><head><style>body{background:url("https://images.example/bg.png")}</style><script>alert("pwned-script")</script></head><body><p>Invoice NW-9 is ready for review.</p><img src="https://images.example/pixel.png" alt="" /><a href="https://pay-now.example/invoice?account=99999999">Open portal</a></body></html>

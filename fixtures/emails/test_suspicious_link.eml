@@ -1,0 +1,11 @@
+From: billing@techcorp.example
+To: accounts@yourcompany.example
+Subject: View Your Invoice Online
+Date: Thu, 31 Oct 2026 10:39:00 +0000
+Message-ID: <suspicious-link@techcorp.example>
+Content-Type: text/plain; charset=utf-8
+Authentication-Results: mx.yourcompany.example; spf=pass; dkim=pass; dmarc=pass
+
+Please view your invoice at: http://malicious-login-site.com/invoice/TC-2024-1208
+
+Click the link to download your invoice and payment details.

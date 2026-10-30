@@ -1,0 +1,11 @@
+From: Northwind Supplies Billing <billing@northwind.example>
+To: Accounts Payable <accounts@acme-pay.example>
+Subject: Payment link
+Date: Sun, 20 Oct 2024 03:00:00 +0000
+Message-ID: <nw-link@northwind.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Authentication-Results: mx.acme-pay.example; spf=pass smtp.mailfrom=billing@northwind.example; dkim=pass header.d=northwind.example; dmarc=pass header.from=northwind.example
+Received: from mail.northwind.example (mail.northwind.example [192.0.2.10]) by mx.acme-pay.example
+
+Payment is due today. The portal host is listed only as text: https://pay-now.example/invoice

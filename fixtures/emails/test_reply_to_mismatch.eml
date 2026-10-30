@@ -1,0 +1,13 @@
+From: billing@techcorp.example
+Reply-To: finance-update@malicious-example.com
+To: accounts@yourcompany.example
+Subject: Invoice TC-2024-1204
+Date: Thu, 31 Oct 2026 10:33:00 +0000
+Message-ID: <reply-to-mismatch@techcorp.example>
+Content-Type: text/plain; charset=utf-8
+Authentication-Results: mx.yourcompany.example; spf=pass; dkim=pass; dmarc=pass
+
+Please find attached invoice TC-2024-1204 for services rendered.
+Total amount due: $2,100.00.
+
+Payment is due within 30 days.

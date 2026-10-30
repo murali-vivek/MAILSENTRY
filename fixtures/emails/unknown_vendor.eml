@@ -1,0 +1,10 @@
+From: Globex Billing <ap@globex.example>
+To: Accounts Payable <accounts@acme-pay.example>
+Subject: Invoice GX-1
+Date: Tue, 15 Oct 2024 15:00:00 +0000
+Message-ID: <gx-1@globex.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Received: from mail.globex.example (mail.globex.example [203.0.113.8]) by mx.acme-pay.example
+
+Please see the invoice. The amount due is listed in the statement of account. Synthetic sender with no saved vendor.

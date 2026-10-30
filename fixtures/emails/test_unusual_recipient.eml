@@ -1,0 +1,12 @@
+From: billing@techcorp.example
+To: random-employee@yourcompany.example
+Subject: Invoice TC-2024-1209
+Date: Thu, 31 Oct 2026 10:40:00 +0000
+Message-ID: <unusual-recipient@techcorp.example>
+Content-Type: text/plain; charset=utf-8
+Authentication-Results: mx.yourcompany.example; spf=pass; dkim=pass; dmarc=pass
+
+Please find attached invoice TC-2024-1209 for services rendered.
+Total amount due: $2,500.00.
+
+Payment is due within 30 days.

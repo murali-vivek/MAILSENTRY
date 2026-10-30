@@ -1,0 +1,11 @@
+From: Northwind Supplies Billing <billing@northwind.example>
+To: Outside Desk <outsider@external.example>
+Subject: Payment today
+Date: Tue, 15 Oct 2024 15:00:00 +0000
+Message-ID: <nw-rush@northwind.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Authentication-Results: mx.acme-pay.example; spf=pass smtp.mailfrom=billing@northwind.example; dkim=pass header.d=northwind.example; dmarc=pass header.from=northwind.example
+Received: from mail.northwind.example (mail.northwind.example [192.0.2.10]) by mx.acme-pay.example
+
+This payment is due today. Do not call the usual accounts team. Synthetic example only.

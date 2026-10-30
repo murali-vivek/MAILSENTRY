@@ -1,0 +1,16 @@
+From: billing@techcorp.example
+To: accounts@yourcompany.example
+Subject: IMPORTANT: Updated Payment Details
+Date: Thu, 31 Oct 2026 10:36:00 +0000
+Message-ID: <bank-change@techcorp.example>
+Content-Type: text/plain; charset=utf-8
+Authentication-Results: mx.yourcompany.example; spf=pass; dkim=pass; dmarc=pass
+
+Please update our bank account details for future payments.
+
+Our new account information:
+Bank: Global Bank
+Account Number: 1234567890
+Routing Number: 987654321
+
+Please update your records before the next payment cycle.

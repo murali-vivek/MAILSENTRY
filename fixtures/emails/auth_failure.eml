@@ -1,0 +1,11 @@
+From: Northwind Supplies Billing <billing@northwind.example>
+To: Accounts Payable <accounts@acme-pay.example>
+Subject: Invoice NW-auth
+Date: Tue, 15 Oct 2024 15:00:00 +0000
+Message-ID: <nw-auth@northwind.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Authentication-Results: mx.acme-pay.example; spf=fail smtp.mailfrom=billing@northwind.example; dkim=fail header.d=northwind.example; dmarc=fail header.from=northwind.example
+Received: from unknown (unknown [198.51.100.20]) by mx.acme-pay.example
+
+Please see the invoice. The amount due is listed in the statement of account.

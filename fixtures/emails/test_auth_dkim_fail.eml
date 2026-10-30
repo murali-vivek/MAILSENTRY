@@ -1,0 +1,12 @@
+From: billing@techcorp.example
+To: accounts@yourcompany.example
+Subject: Invoice TC-2024-1202
+Date: Thu, 31 Oct 2026 10:31:00 +0000
+Message-ID: <dkim-fail@techcorp.example>
+Content-Type: text/plain; charset=utf-8
+Authentication-Results: mx.yourcompany.example; spf=pass; dkim=fail; dmarc=pass
+
+Please find attached invoice TC-2024-1202 for services rendered.
+Total amount due: $1,800.00.
+
+Payment is due within 30 days.

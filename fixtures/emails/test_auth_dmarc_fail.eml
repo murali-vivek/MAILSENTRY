@@ -1,0 +1,12 @@
+From: billing@techcorp.example
+To: accounts@yourcompany.example
+Subject: Invoice TC-2024-1203
+Date: Thu, 31 Oct 2026 10:32:00 +0000
+Message-ID: <dmarc-fail@techcorp.example>
+Content-Type: text/plain; charset=utf-8
+Authentication-Results: mx.yourcompany.example; spf=pass; dkim=pass; dmarc=fail
+
+Please find attached invoice TC-2024-1203 for services rendered.
+Total amount due: $2,900.00.
+
+Payment is due within 30 days.

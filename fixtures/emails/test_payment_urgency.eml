@@ -1,0 +1,11 @@
+From: billing@techcorp.example
+To: accounts@yourcompany.example
+Subject: URGENT: Payment Due Immediately
+Date: Thu, 31 Oct 2026 10:37:00 +0000
+Message-ID: <urgency@techcorp.example>
+Content-Type: text/plain; charset=utf-8
+Authentication-Results: mx.yourcompany.example; spf=pass; dkim=pass; dmarc=pass
+
+This is an urgent notice. Payment must be made immediately or your account will be suspended.
+
+Please remit payment within 24 hours to avoid service interruption.
